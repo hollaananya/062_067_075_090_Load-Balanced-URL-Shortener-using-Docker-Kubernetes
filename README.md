@@ -12,3 +12,5 @@ Developed and containerized a basic URL shortener service that:
 1. docker build -t url-shortener .
 2. docker-compose up
 3. curl -X POST -H "Content-Type: application/json" -d '{"url": "https://www.example.com"}' http://localhost:5001/shorten
+
+# Week-2
