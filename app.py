@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, jsonify
 import redis
 import hashlib
 
-app = Flask(__name__)
+app = Flask(__name__) 
 # Connect to Redis (assuming Redis is running on the default port)
 redis_client = redis.Redis(host="redis", port=6379, decode_responses=True)
 keys = redis_client.keys("*")
